@@ -31,11 +31,11 @@ Go Gin × SQLboilerのRESTAPIのボイラープレート
 
 ## 環境構築
 ### 1. 環境変数のファイルの作成
-- appディレクトリ配下の.env.sampleをコピーし、.envとする
+- rootディレクトリ配下の.env.sampleをコピーし、.envとする
 - .env.sampleは開発環境をサンプルとしているため、設定値の調整は不要
 
 ```
-cp app/.env.sample app/.env
+cp .env.sample .env
 ```
 
 ### 2. Dockerのbuild・立ち上げ
