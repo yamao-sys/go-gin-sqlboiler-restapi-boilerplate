@@ -81,6 +81,14 @@ go run main.go
 
 4により、Webサーバの起動ができたら、postman等を使用し、APIアクセスができていることを確認
 
+## sqlboilerによるコードの自動生成
+コンテナに入った上で、以下のコマンドを実行
+```
+make prepare-sqlboiler
+
+make gen-models
+```
+
 ## 設計方針
 - Controller - Serviceのレイヤードアーキテクチャ
 	- ロジックはServiceに寄せる
